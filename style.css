@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 13px;
-  margin: 155px auto;
+  margin: 150px auto;
   max-width: 385px;
   width: 90%;
   background-color: hsl(0, 0%, 12%);
@@ -51,22 +51,23 @@ p {
   margin-bottom: 10px;
 }
 
+.socialinks {
+  width: 90%;
+  margin-bottom: 26px;
+}
 .list {
   list-style-type: none;
-  margin-bottom: 40px;
 }
-
 .list li {
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 20%);
   margin: 17px;
   padding: 14px;
-  width: 304px;
+  /* width: 304px; */
   text-align: center;
   border-radius: 8px;
   font-size: 15px;
   font-weight: 600;
-  display: block;
 }
 .profile img {
   border-radius: 50%;
